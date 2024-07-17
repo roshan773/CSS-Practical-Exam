@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 70vh;
+    background-color: whitesmoke;
+}
+
+.main-container{
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box1{
+    width: 22%;
+    height: 50vh;
+    border: 1px solid black;
+}
+
+.box2{
+    width: 23%;
+    height: 60vh;
+    border: 1px solid black;
+}
+
+.box1 .star{
+    width: 45%;
+    height: 10%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.box2 .star{
+    width: 45%;
+    height: 5%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.star i{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(224, 224, 28);
+}
+
+.user{
+    width: 45%;
+    height: 150px;
+    background-color: brown;
+    margin: auto;
+}
+
+.user img{
+    width: 100%;
+    height: 100%;
+}
+
+.user2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.comment{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.box2 .comment{
+    padding-top: 130px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.user2{
+    width: 45%;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 90px;
+    background-color: brown;
+   
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.dots{
+    width: 10%;
+    height: 16px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dots div{
+    width: 15px;
+    height: 15px;
+    background-color: rgba(107, 155, 239, 0.475);
+    border-radius: 50%;
+}

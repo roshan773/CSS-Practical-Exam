@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    background-image: url("images/painting-mountain-lake-with-moun.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container{
+    width: 400px;
+    height: 60vh;
+    border: 1px solid brown;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding: 10px;
+}
+
+.main-container h2{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.main-container img{
+    margin-left: 125px;
+    margin-top: 10px;
+    width: 140px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.intro{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.main-container .links{
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 20px;
+}
